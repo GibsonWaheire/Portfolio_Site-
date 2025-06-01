@@ -29,6 +29,8 @@ This is a personal portfolio website showcasing my skills in HTML, CSS, and Java
    ```bash
    git clone https://github.com/GibsonWaheire/phase-0-portfolio.git
 
+
+
 Open the project folder in your terminal/command prompt.
 
 Inside the project folder, open index.html in your browser (double-click or right-click → “Open with…”).
@@ -38,13 +40,12 @@ The site will load with the dark theme by default. Click “Toggle Theme” to s
 No build step or server is required—everything runs in the browser.
 
 File Structure
-pgsql
-Copy
-Edit
+
 phase-0-portfolio/
 ├─ index.html
 ├─ style.css
 └─ script.js
+
 index.html Contains the empty containers (<section> elements) that JavaScript populates.
 
 style.css Defines colors, layout, typography, and responsive behavior without using CSS variables.
@@ -52,11 +53,9 @@ style.css Defines colors, layout, typography, and responsive behavior without 
 script.js Holds all data objects/arrays and functions that generate the About, Projects, and Contact sections plus theme-toggle logic.
 
 “About Me” Data
+
 All personal details are stored in the aboutInfo object inside script.js. Example:
 
-js
-Copy
-Edit
 const aboutInfo = {
   name: "Gibson Waheire",
   role: "Phase 0 Student / Front-End Enthusiast",
@@ -64,6 +63,8 @@ const aboutInfo = {
     "Learning the fundamentals of HTML, CSS, and JavaScript at Moringa School. Comfortable using the terminal and Git/GitHub to version and host projects.",
   skills: ["HTML5", "CSS3", "JavaScript (ES6 Basics)", "Git & GitHub", "Terminal Usage"],
 };
+
+
 To update the “About Me” section, simply edit this object.
 
 Projects Data
@@ -79,9 +80,6 @@ link
 
 Example:
 
-js
-Copy
-Edit
 const projects = [
   {
     title: "What to Eat Web App",
@@ -98,19 +96,16 @@ const projects = [
     link: "https://github.com/GibsonWaheire",
   },
 ];
+
 Add or remove project objects to update the Projects grid.
 
 Contact Data
-Contact details are stored in the contactInfo object:
-
-js
-Copy
-Edit
 const contactInfo = {
   email: "gibson.waheire@example.com",
   phone: "+254712345678",
   linkedin: "https://linkedin.com/in/GibsonWaheire",
 };
+
 Edit this object to update email, phone, or LinkedIn.
 
 Why JavaScript?
