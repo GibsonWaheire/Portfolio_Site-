@@ -6,14 +6,14 @@
   }
   
   body {
-    background-color: #b1bac2;
-    color: #ecf0f1;
+    background-color: #0c3d67;
+    color: #000506;
     font-family: Arial, sans-serif;
     line-height: 1.6;
   }
   
   body.light-theme {
-    background-color: #ffffff;
+    background-color: #ece2e2;
     color: #222222;
   }
   
